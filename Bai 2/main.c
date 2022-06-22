@@ -21,3 +21,5 @@ int main()
     printf("ket qua s=1^2 + 2^2 + 3^2 + ... n^2 --- voi n=%ld la s=%ld",n,result);
     return 0;
 }
+
+123123
