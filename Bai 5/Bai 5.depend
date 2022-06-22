@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1655889623 source:d:\dien tu vien thong\tai lieu lap trinh\test\baitap\baitap_laptrinh\bai 5\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
