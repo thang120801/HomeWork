@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h> //thư viện toán học
 
 //FUNCTION TINH GIAI THUA
 int giaiThua(int input)
@@ -16,6 +17,7 @@ int giaiThua(int input)
     return result;  //result sẽ là kết quả được trả về cho function giaiThua
 }
 
+//FUNCTION MAIN
 int main()
 {
     //KHAI BAO
@@ -24,7 +26,6 @@ int main()
     int count;
     double result=0;
 
-   // printf("test 3^0,5=%lf",pow(3,(float)1/2));
 
     //LAY GIA TRI CHO n VA x
     printf("nhap gia tri cho x:");
