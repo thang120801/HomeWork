@@ -39,8 +39,8 @@ int main()
     //TINH TOAN
     for(count=1;count<=n;count++)
     {
-        result=result+pow(x,((count/(double)giaiThua(count))));     //ở function trên giaiThua() trả về số nguyên nhưng ở dưới chia dạng số thực nên sẽ chuyển tức thì giá trị của giaiThua() về số thực
-    }
+        result=result+pow(x,((count/(double)giaiThua(count))));     //ở function trên giaiThua() trả về số nguyên nhưng ở dưới chia dạng số thực nên
+    }                                                               //trước giaiThua(count) có để (double) nhằm giá trị của giaiThua(count) được trả về số thực ngay lập tức
     printf("ket qua la: %f",result);
     return 0;
 }
