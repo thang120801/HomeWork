@@ -4,7 +4,7 @@
 int main()
 {
 //KHAI BÁO   
-    int input;
+    int input=0;
     int soDu;
     int result=0;
  
@@ -16,7 +16,7 @@ int main()
     }
 
 //TÍNH TOÁN
-    while(input%10!=input)
+    while(input%10!=input)      //khi input đến số cuối cùng thì tự thoát vòng lặp
     {
         soDu=input%10;
         if(soDu>result)
@@ -26,7 +26,8 @@ int main()
         input=input/10;     //vứt đi số sau cùng vừa so sánh xong
 
     }
-    //khi đến số cuối cùng thì bị thoát loop nên bổ sung thêm 2 instruction phía trên ở dưới này
+    /*khi đến số cuối cùng thì bị thoát loop(chưa kịp so sánh số cuối)nên bổ sung thêm 2 instruction
+    phía trên ở dưới này*/
     soDu=input%10;
     if(soDu>result)
     {
@@ -35,6 +36,5 @@ int main()
     //khi so sánh hết các số rồi thì in ra số lớn nhất
     printf("chu so lon nhat la %d",result);
     return 0;
-
 }
 
