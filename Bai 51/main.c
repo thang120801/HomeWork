@@ -34,7 +34,7 @@ int main()
         result=soDu;
     }
     //khi so sánh hết các số rồi thì in ra số lớn nhất
-    printf("chu so lon nhat la %d",result);
+    printf("Chu so lon nhat la %d \n",result);
     return 0;
 }
 
